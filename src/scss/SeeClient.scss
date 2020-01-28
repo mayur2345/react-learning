@@ -1,0 +1,322 @@
+@import './SeeClientHeader.scss';
+@import './fonts.scss';
+
+.see-client-tab-switch {
+  padding-left: $marginLeft + 1px;
+  display: flex;
+  align-items: center;
+  // border-bottom: 1px solid #e5e5e5;
+
+  .tab {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 125ms ease-in-out;
+    border: 1px solid transparent;
+    padding: 22px 0;
+    margin: 0 10px;
+  }
+  .tab-active {
+    border-bottom: 1px solid #000000;
+  }
+
+  .tab-text-active {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #000000;
+
+    opacity: 1 !important;
+  }
+  .tab-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #000000;
+
+    opacity: 0.45;
+  }
+}
+
+.see-client-actions {
+  margin: 31px $marginRight 16px $marginLeft;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .searchInputWrapper {
+    position: relative;
+    flex: 0.3;
+  }
+
+  .buttonWrapper {
+    flex: 1;
+  }
+
+  .actions-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .searchInput {
+      // width: 50%;
+    }
+
+    .see-client-searchIcon {
+      color: #838383;
+      position: absolute;
+      // margin-left: 19.5vw;
+    }
+
+    .searchInput::placeholder {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+
+      /* identical to box height, or 157% */
+      // display: flex;
+      // align-items: center;
+
+      color: #838383;
+    }
+  }
+}
+
+.see-client-statusButton {
+  height: 30px;
+  width: 100px;
+  border: 1px solid #aaaaaa;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #f6f6f6;
+  color: #888888;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.tableHeadTitle {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+
+  color: #b1b1b1 !important;
+}
+
+.tableGreyBodyValue {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+
+  color: #969696 !important;
+}
+
+.tableBoldBodyValue {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.see-client-spaces-empty-box-wrapper {
+  width: 100%;
+  margin-top: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .box {
+    padding: 0 100px 35px 100px;
+
+    border: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .plusIcon {
+      margin-top: 53px;
+      background: #c4c4c4;
+      opacity: 0.3;
+      border-radius: 8px;
+
+      p {
+        padding: 8px 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.5;
+      }
+    }
+
+    .texts {
+      margin: 15px 0 30px 0;
+      text-align: center;
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #000000;
+
+        opacity: 0.5;
+      }
+      p {
+        padding-top: 6px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #000000;
+
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+// Modals
+.managerHeader {
+  border-bottom: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+
+  h3 {
+    color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  p {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #838383;
+    margin-top: 7px;
+  }
+}
+.manager-modal-top-inputs {
+  display: flex;
+  padding-bottom: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manager-modal-column-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.manager-modal-inputs {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.managerButtons {
+  background-color: #fff;
+  display: flex;
+  padding: 0px 0px 0px 20px;
+  align-items: center;
+  justify-content: flex-start;
+
+  .cancel {
+    height: 42px;
+
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 0.5vw;
+
+    color: #6b6b6b;
+
+    .cancelText {
+      height: 100%;
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  .save {
+    background: #6b6b6b;
+    border: 1px solid rgba(0, 0, 0, 0.0656986);
+    box-sizing: border-box;
+    box-shadow: inset -1px 1px 0px rgba(255, 255, 255, 0.0001);
+    border-radius: 4px;
+    height: 42px;
+    width: 143px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+
+.see-client-scroller{
+  height: 500px;
+  overflow-x: auto;
+}

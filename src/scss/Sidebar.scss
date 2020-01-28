@@ -1,0 +1,296 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+/**
+ *  Sidebar
+ */
+
+.sidebar {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #6b6b6b;
+  box-shadow: inset -6px 0px 15px rgba(15, 16, 16, 0.167572);
+}
+
+.sidebarNavWrapper {
+  position: absolute;
+  left: 0%;
+  right: 86.81%;
+  top: 0%;
+  bottom: 0%;
+}
+
+/*------------------------------------------------------------------
+     [ Menu ] 
+*/
+
+.sidebarMenu {
+  position: absolute;
+  left: 5.26%;
+  right: 5.26%;
+  // top: 8.14%;
+  // bottom: 53.31%;
+}
+
+.menuAnalytics {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 86px;
+}
+
+.menuAnalyticsText {
+  position: absolute;
+  width: 67px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuClients {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 130px;
+}
+
+.menuSelected {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 130px;
+  background-color: #808080;
+  border-radius: 4px;
+}
+
+.menuClientsText {
+  position: absolute;
+  width: 50px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuSpaces {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 173px;
+}
+
+.menuSpacesText {
+  position: absolute;
+  width: 51px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuBookings {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 216px;
+}
+
+.menuBookingsText {
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuMembers {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 259px;
+}
+
+.menuMembersText {
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuPerks {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 363px;
+}
+
+.menuPerksText {
+  position: absolute;
+  width: 43px;
+  height: 23px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuSubscriptions {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 407px;
+}
+
+.menuSubscriptionsText {
+  position: absolute;
+  width: 99px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuFeedback {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 10px;
+  top: 450px;
+}
+
+.menuFeedbackText {
+  position: absolute;
+  width: 71px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menuSettings {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 35px;
+  /* top: 800px; */
+  /* bottom: 0; */
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 2%;
+}
+
+.menuSettingsText {
+  position: absolute;
+  width: 71px;
+  height: 22px;
+  left: 30px;
+  top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.settingsIcon {
+  margin-left: 10px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 12px;
+  font-size: 18px;
+  color: #ffffff;
+}

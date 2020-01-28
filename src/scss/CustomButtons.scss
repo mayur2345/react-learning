@@ -1,0 +1,29 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+/**
+ *  Custom buttons
+ */
+
+.primaryButton {
+  height: 42px;
+  width: 143px;
+  margin-left: 0.75rem;
+  color: #ffffff;
+  background: #6b6b6b;
+  border: 1px solid rgba(0, 0, 0, 0.0656986);
+  box-sizing: border-box;
+  box-shadow: inset -1px 1px 0px rgba(255, 255, 255, 0.0001);
+  border-radius: 4px;
+}
+
+.secondaryButton {
+  height: 42px;
+  width: 81px;
+  margin-left: 0.75rem;
+  color: #6b6b6b;
+  background: white;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

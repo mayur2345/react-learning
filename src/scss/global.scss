@@ -1,0 +1,135 @@
+@import "../assets/scss/sb-admin-2.scss";
+
+
+// Global component styles
+
+.flexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.pageWrapper {
+  height: 100%;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* top: 60px; */
+  /* left: 224px; */
+  padding-top: 4rem;
+  padding-left: 14rem;
+  position: absolute;
+  background: white;
+  color: white;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+// Main page wrapper
+#wrapper {
+  display: flex;
+  #content-wrapper {
+    background-color: $gray-100;
+    width: 100%;
+    overflow-x: hidden;
+    #content {
+      flex: 1 0 auto;
+    }
+  }
+}
+
+// Set container padding to match gutter width instead of default 15px
+.container,
+.container-fluid {
+  padding-left: $grid-gutter-width;
+  padding-right: $grid-gutter-width;
+}
+
+// Scroll to top button
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: $white;
+  background: fade-out($gray-800, 0.5);
+  line-height: 46px;
+  &:focus,
+  &:hover {
+    color: white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  i {
+    font-weight: 800;
+  }
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.row {
+  margin-top: 5%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.col {
+  padding-left: 0;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+.displayBlock {
+  display: block !important;
+}
+
+.pageLoader {
+  border: 16px solid #e0e0e0;
+  border-radius: 50%;
+  border-top: 16px solid #808080;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error {
+  color:red;
+  font-size: 12px;
+  display: relative;
+}

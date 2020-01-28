@@ -1,0 +1,113 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+/**
+ *  Add Client
+ */
+
+.horizontalLine {
+  height: 1px;
+  background-color: #e5e7e9;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+  margin-top: 1rem;
+}
+
+.smallHorizontalLine {
+  height: 1px;
+  margin-left: 1.3rem;
+  /* margin-right: 44rem; */
+  width: 68rem;
+  margin-top: 0.5rem;
+  background: #c4c4c4;
+  opacity: 0.3;
+}
+
+.addClientInputsWrapper {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width: 55rem;
+  height: 25%;
+}
+
+.addCompanyInputsWrapper {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width: 55rem;
+  height: 25%;
+}
+
+.addClientGroupName {
+  //position: absolute;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  width: 170px;
+  height: 19px;
+  left: 216px;
+  top: 213px;
+
+  //font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #3a3547;
+}
+
+.paddingTop075Rem {
+  padding-top: 0.75rem;
+}
+
+.anotherEmailText {
+  //width: 497px;
+  height: 30px;
+  left: 443px;
+  top: 389px;
+
+  //font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #0d0d0e;
+  opacity: 0.5;
+}
+
+.checkboxLabel {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3b3b3b;
+}
+
+.addClientCompany {
+  margin-bottom: 1rem;
+}
+
+.fullHorizontalLine {
+  height: 1px;
+  background-color: #e5e7e9;
+  margin-top: 3rem;
+}
+
+.lineWrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 90px; 
+}
+
+.buttonsWrapper {
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  margin-bottom: 23px;
+}
+
+.add-client-scroller{
+  height: 400px;
+  overflow-x: auto;
+}
