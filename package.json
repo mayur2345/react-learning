@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "amazon-cognito-identity-js": "^3.2.0",
     "amazon-cognito-js": "^1.1.0",
-    "aws-sdk": "^2.588.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.19.1",
     "clsx": "^1.0.4",
     "history": "^4.10.1",
